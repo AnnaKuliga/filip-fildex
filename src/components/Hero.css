@@ -12,6 +12,8 @@
 }
 .right-h {
   flex: 1;
+  position: relative;
+  background-color: var(--orange);
 }
 .the-best {
   margin-top: 4rem;
@@ -82,4 +84,10 @@
   color: black;
   background-color: var(--orange);
   width: 9rem;
+}
+.hero-img {
+  position: absolute;
+  top: 7rem;
+  right: 5rem;
+  width: 28rem;
 }

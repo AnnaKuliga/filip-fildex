@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import Header from "./Header";
-import header_img from "../../src/images/header img.png";
+import hero_img from "../../src/images/header img.png";
 const Hero = () => {
   return (
     <div className="hero">
@@ -44,7 +44,10 @@ const Hero = () => {
           <buttons className="btn">Skontaktuj się z nami</buttons>
         </div>
       </div>
-      <div className="right-h"></div>
+      <div className="right-h">
+        {/*hero image*/}
+        <img src={hero_img} alt="handyman" className="hero-img" />
+      </div>
     </div>
   );
 };
