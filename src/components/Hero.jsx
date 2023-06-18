@@ -45,6 +45,22 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
+        <div className="contact-info">
+          <div className="tel">
+            <span>Zadźwoń: </span>
+            <span>
+              <a href="tel:514 92 78 92">+48 514 92 78 92</a>
+            </span>
+          </div>
+          <div className="mail">
+            <span>Napisz: </span>
+            <span>
+              <a href="mailto:fildex@wp.pl" title="Napisz do nas">
+                fildex@wp.pl
+              </a>
+            </span>
+          </div>
+        </div>
         {/*hero image*/}
         <img src={hero_img} alt="handyman" className="hero-img" />
       </div>
