@@ -6,7 +6,22 @@
   width: 10rem;
   height: 3rem;
 }
-.left-h {
-  padding: 2rem;
-  padding-top: 1.5rem;
+
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header-menu > li > a {
+  color: white;
+}
+.header-menu > li > a:hover {
+  color: var(--orange);
+}
+.header-menu > li:hover {
+  color: var(--orange);
+  cursor: pointer;
 }
