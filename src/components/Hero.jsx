@@ -47,13 +47,17 @@ const Hero = () => {
       <div className="right-h">
         <div className="contact-info">
           <div className="tel">
-            <span>Zadźwoń: </span>
+            <span>
+              <i class="fa-solid fa-phone fa-beat-fade"></i>{" "}
+            </span>
             <span>
               <a href="tel:514 92 78 92">+48 514 92 78 92</a>
             </span>
           </div>
           <div className="mail">
-            <span>Napisz: </span>
+            <span>
+              <i class="fa-regular fa-envelope fa-beat-fade"></i>{" "}
+            </span>
             <span>
               <a href="mailto:fildex@wp.pl" title="Napisz do nas">
                 fildex@wp.pl

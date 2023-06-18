@@ -98,18 +98,22 @@
   gap: 1rem;
   background-color: var(--darkGrey);
   width: fit-content;
-  padding: 1rem;
+  padding: 1.5rem;
   align-items: start;
   border-radius: 5px;
   position: absolute;
   right: 3rem;
   top: 1rem;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
 }
 .contact-info a {
   color: white;
+  text-decoration: none;
 }
 .contact-info a:hover {
   color: var(--orange);
+}
+.contact-info i {
+  font-size: 22px;
+  padding-right: 5px;
 }
