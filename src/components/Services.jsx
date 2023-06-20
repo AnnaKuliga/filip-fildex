@@ -8,6 +8,15 @@ const Services = () => {
         <span>Dowiedz się więcej o firmie </span>
         <span className="stroke-text">FILDEX</span>
       </div>
+      <div className="services-categories">
+        {servicesData.map((service) => (
+          <div className="category">
+            {service.icon}
+            <span>{service.heading}</span>
+            <span>{service.description}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
