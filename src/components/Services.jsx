@@ -11,7 +11,7 @@ const Services = () => {
       <div className="services-categories">
         {servicesData.map((service) => (
           <div className="category">
-            {service.icon}
+            <span>{service.icon}</span>
             <span>{service.heading}</span>
             <span>{service.description}</span>
           </div>

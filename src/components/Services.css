@@ -14,3 +14,29 @@
   text-transform: uppercase;
   font-style: italic;
 }
+.services-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  justify-content: space-between;
+}
+.category > :nth-child(1) {
+  font-size: 35px;
+}
+.category > :nth-child(2) {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.category > :nth-child(3) {
+  font-size: 15px;
+  line-height: 1.5;
+}
