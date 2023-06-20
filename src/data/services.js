@@ -21,7 +21,7 @@ export const servicesData = [
     icon: <i class="fa-solid fa-chair"></i>,
     heading: "Meble i wyposażenie",
     description:
-      "Oferujemy składanie nowych lub naprawę starych mebli, powieszenie szafki, półki, lustra i innych elementów wyposażenia mieszkania.",
+      "Nasza firma oferuje złożenie nowych mebli. Zajmujemy się również naprawą starych mebli, wieszaniem szafek, półek, lustr oraz innych elementów wyposażenia mieszkania.",
   },
   {
     icon: <i class="fa-solid fa-tv"></i>,
