@@ -44,6 +44,10 @@ const Reasons = () => {
             <i class="fa-solid fa-check"></i>
             <span>Nie tracisz czasu</span>
           </div>
+          <div>
+            <i class="fa-solid fa-check"></i>
+            <span>Wszystko fachowo i na czas</span>
+          </div>
         </div>
       </div>
     </div>
