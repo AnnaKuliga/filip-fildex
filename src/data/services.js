@@ -33,7 +33,7 @@ export const servicesData = [
     icon: <i class="fa-solid fa-bicycle"></i>,
     heading: "Serwis rowerowy",
     description:
-      "Serwis rowerowy z dojazdem do klienta. Możliwość wykonania drobnych usterek na miejscu lub zabrania na warsztat w przypadku poważniejszych awarii sprzętu. Wśród naszych usług znajdziesz naprawy bieżące jak i serwis okresowy. Centrowanie oraz zaplatanie kół szprychowych. Przeglądy sezonowe, konserwacja i naprawy. Regulacja hamulców i przekładni. Serwis hydrauliki oraz amortyzatorów. Naprawa oświetlenia.",
+      "Serwis rowerowy z dojazdem do klienta. Możliwość wykonania drobnych usterek na miejscu lub zabrania na warsztat w przypadku poważniejszych awarii sprzętu. Wśród naszych usług znajdziesz naprawy bieżące jak i serwis okresowy. Centrowanie oraz zaplatanie kół szprychowych. Przeglądy sezonowe, konserwacja i naprawy. Regulacja hamulców i przekładni. Serwis hydrauliki, amortyzatorów oraz naprawa oświetlenia.",
   },
   {
     icon: <i class="fa-solid fa-trowel-bricks"></i>,
