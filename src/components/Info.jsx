@@ -6,6 +6,12 @@ const Info = () => {
     <div className="Info" id="info">
       <div className="left-i"></div>
       <div className="right-i">
+        <div>
+          <span>
+            O firmie <span className="stroke-text">FILDEX</span>
+          </span>
+        </div>
+
         <p class="description">
           Firma FILDEX została założona w 2021r. i działa w województwie
           podkarpackim. Wyróżniamy się szeroką gamą usług montażowych,

@@ -6,8 +6,21 @@
 .left-i {
   flex: 1 1;
   display: flex;
+  padding: 2rem;
 }
-.right- {
+.right-i {
   flex: 1 1;
   display: flex;
+  padding: 2rem;
+  color: white;
+  flex-direction: column;
+}
+.right-i > :nth-child(1) {
+  font-size: 3rem;
+}
+.description {
+  text-align: justify;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
 }
