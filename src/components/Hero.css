@@ -78,6 +78,7 @@
   display: flex;
   gap: 1rem;
   font-weight: normal;
+  padding-top: 15px;
 }
 .hero-buttons > :nth-child(1),
 .hero-buttons > :nth-child(2) {
