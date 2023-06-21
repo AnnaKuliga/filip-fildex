@@ -14,4 +14,24 @@
   display: flex;
   padding: 2rem;
   flex-direction: column;
+  color: white;
+}
+.right-c a {
+  text-decoration: none;
+  color: white;
+}
+.right-c h6 {
+  font-size: 20px;
+  color: var(--orange);
+}
+.right-c h4 {
+  font-size: 32px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+.icons i {
+  font-size: 20px;
+  padding: 8px;
 }
