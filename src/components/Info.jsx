@@ -1,10 +1,13 @@
 import React from "react";
 import "./Info.css";
+import map from "../images/map.png";
 
 const Info = () => {
   return (
     <div className="Info" id="info">
-      <div className="left-i"></div>
+      <div className="left-i">
+        <img src={map} alt="" srcset="" className="info-map" />
+      </div>
       <div className="right-i">
         <div>
           <span>
