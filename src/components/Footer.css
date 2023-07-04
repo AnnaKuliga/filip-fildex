@@ -1,0 +1,16 @@
+.Footer {
+  display: flex;
+  gap: 2rem;
+  padding: 0 2rem;
+  margin: 20px 0;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.copyright > a {
+  text-decoration: none;
+  color: white;
+}
+.copyright > a:hover {
+  color: var(--orange);
+}
