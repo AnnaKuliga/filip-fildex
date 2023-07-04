@@ -1,10 +1,13 @@
 import React from "react";
 import "./Contact.css";
+import contact from "../images/contact.png";
 
 const Contact = () => {
   return (
     <div className="Contact" id="contact">
-      <div className="left-c">LEFT IMG</div>
+      <div className="left-c">
+        <img src={contact} alt="" srcset="" />
+      </div>
       <div className="right-c">
         <div>
           <h6>Zainteresowany?</h6>
