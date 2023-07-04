@@ -46,7 +46,7 @@
 }
 .right-r > :nth-child(1) {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .details {
   display: flex;
