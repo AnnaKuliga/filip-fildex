@@ -4,16 +4,16 @@
   padding: 0 2rem;
 }
 
-.left-c {
+.right-c {
   flex: 1 1;
   display: flex;
   padding: 2rem;
 }
-.left-c > img {
+.right-c > img {
   max-width: 100%;
   height: auto;
 }
-.right-c {
+.left-c {
   flex: 1 1;
   display: flex;
   padding: 2rem;
@@ -21,15 +21,15 @@
   color: white;
 }
 
-.right-c a {
+.left-c a {
   text-decoration: none;
   color: white;
 }
-.right-c h6 {
+.left-c h6 {
   font-size: 20px;
   color: var(--orange);
 }
-.right-c h4 {
+.left-c h4 {
   font-size: 32px;
 }
 .icons {

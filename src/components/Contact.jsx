@@ -6,9 +6,6 @@ const Contact = () => {
   return (
     <div className="Contact" id="contact">
       <div className="left-c">
-        <img src={contact} alt="" srcset="" />
-      </div>
-      <div className="right-c">
         <div>
           <h6>Zainteresowany?</h6>
           <h4>Skontaktuj się z nami</h4>
@@ -27,6 +24,9 @@ const Contact = () => {
             </span>
           </div>
         </div>
+      </div>
+      <div className="right-c">
+        <img src={contact} alt="" srcset="" />
       </div>
     </div>
   );
