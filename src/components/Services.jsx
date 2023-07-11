@@ -4,6 +4,9 @@ import { servicesData } from "../../src/data/services";
 const Services = () => {
   return (
     <div className="Services" id="services">
+      <div className="blur services-blur-1"></div>
+      <div className="blur services-blur-2"></div>
+      <div className="blur services-blur-3"></div>
       <div className="services-header">
         <span>Dowiedz się więcej o firmie </span>
         <span className="stroke-text">FILDEX</span>

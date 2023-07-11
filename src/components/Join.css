@@ -17,6 +17,18 @@
   border-radius: 20%;
   margin: -10px 0;
 }
+.join-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  bottom: 10rem;
+  left: 0rem;
+}
+.join-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  bottom: 60rem;
+  right: 0rem;
+}
 .left-j > div {
   display: flex;
   gap: 1rem;

@@ -118,3 +118,8 @@
   font-size: 22px;
   padding-right: 5px;
 }
+.hero-blur {
+  width: 22rem;
+  height: 30rem;
+  left: 0;
+}

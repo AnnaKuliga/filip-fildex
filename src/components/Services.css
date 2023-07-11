@@ -4,6 +4,24 @@
   gap: 2rem;
   padding: 0 2rem;
 }
+.services-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 60rem;
+  left: 0rem;
+}
+.services-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 80rem;
+  right: 0rem;
+}
+.services-blur-3 {
+  width: 32rem;
+  height: 23rem;
+  top: 120rem;
+  left: 0rem;
+}
 .services-header {
   display: flex;
   gap: 2rem;
