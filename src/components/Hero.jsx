@@ -5,6 +5,7 @@ import hero_img from "../../src/images/header img.png";
 import { motion } from "framer-motion";
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
+  const mobile = window.innerWidth <= 768 ? true : false;
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
@@ -12,7 +13,7 @@ const Hero = () => {
         <Header />
         <div className="the-best">
           <motion.div
-            initial={{ left: "180px" }}
+            initial={{ left: mobile ? "130" : "180px" }}
             whileInView={{ left: "8px" }}
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
