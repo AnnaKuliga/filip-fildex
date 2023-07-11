@@ -12,7 +12,7 @@ const Join = () => {
           <span>jesteś</span>
           <span className="stroke-text"> ciekawy </span>
           <span>
-            naszej oferty <span className="stroke-text">?</span>
+            naszej oferty? - <span className="stroke-text">zadzwoń</span>
           </span>
         </div>
         <div>

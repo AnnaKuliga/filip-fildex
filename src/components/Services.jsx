@@ -8,8 +8,8 @@ const Services = () => {
       <div className="blur services-blur-2"></div>
       <div className="blur services-blur-3"></div>
       <div className="services-header">
-        <span>Dowiedz się więcej o firmie </span>
-        <span className="stroke-text">FILDEX</span>
+        <span>Dowiedz się więcej o naszych </span>
+        <span className="stroke-text">usługach</span>
       </div>
       <div className="services-categories">
         {servicesData.map((service) => (
