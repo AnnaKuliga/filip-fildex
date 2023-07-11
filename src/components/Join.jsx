@@ -31,7 +31,6 @@ const Join = () => {
           </span>
         </div>
       </div>
-      <div className="right-j"></div>
     </div>
   );
 };
