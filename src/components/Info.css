@@ -31,3 +31,22 @@
   letter-spacing: 0.5px;
   line-height: 1.5;
 }
+@media screen and (max-width: 768px) {
+  .Info {
+    flex-direction: column;
+  }
+  .left-i {
+    justify-content: center;
+    align-items: center;
+  }
+  .left-i > img {
+    max-width: 60%;
+  }
+  .right-i > :nth-child(1) {
+    font-size: 35px;
+    align-self: center;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
