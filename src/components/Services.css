@@ -40,7 +40,7 @@
 .category {
   display: flex;
   flex-direction: column;
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.489);
   border-radius: 4px;
   padding: 2rem;
   gap: 1rem;
