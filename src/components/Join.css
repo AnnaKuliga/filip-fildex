@@ -45,3 +45,7 @@
   background-color: var(--orange);
   color: black;
 }
+.shop {
+  text-decoration: none;
+  color: white;
+}

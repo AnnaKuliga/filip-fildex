@@ -1,50 +1,33 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Join.css";
-import emailjs from "@emailjs/browser";
 
 const Join = () => {
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefaault();
-    emailjs
-      .sendForm(
-        "Your_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_USER_ID"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
     <div className="Join" id="join-us">
       <div className="left-j">
         <hr />
         <div>
-          <span>nadal</span>
-          <span className="stroke-text"> nie jesteś </span>
-          <span>pewny?</span>
+          <span>jesteś</span>
+          <span className="stroke-text"> ciekawy </span>
+          <span>
+            naszej oferty <span className="stroke-text">?</span>
+          </span>
         </div>
         <div>
-          <span className="stroke-text">oddzwonimy</span>
+          <span>sprawdź nasz</span>
+          <span>
+            {" "}
+            <a
+              href="https://allegro.pl/uzytkownik/ShareOutlet?fbclid=IwAR2pFzbQsHKsi6XnfbGSskmu1qC-UIMMpeQXGpKBpElj-fK__jaHiT57NeM&order=n&strategy=NO_FALLBACK"
+              target="_blank"
+              className="shop stroke-textnpm"
+            >
+              sklep internetowy
+            </a>{" "}
+          </span>
         </div>
       </div>
-      <div className="right-j">
-        <form ref={form} className="email-container" onSubmit={sendEmail}>
-          <input
-            type="email"
-            name="user_email"
-            placeholder="Wpisz swój numer telefonu lub e-mail"
-          />
-          <button className="btn btn-j">Wyślij</button>
-        </form>
-      </div>
+      <div className="right-j"></div>
     </div>
   );
 };
