@@ -2,14 +2,20 @@ import React from "react";
 import "./Hero.css";
 import Header from "./Header";
 import hero_img from "../../src/images/header img.png";
+import { motion } from "framer-motion";
 const Hero = () => {
+  const transition = { type: "spring", duration: 3 };
   return (
     <div className="hero">
       <div className="blur hero-blur"></div>
       <div className="left-h">
         <Header />
         <div className="the-best">
-          <div></div>
+          <motion.div
+            initial={{ left: "180px" }}
+            whileInView={{ left: "8px" }}
+            transition={{ ...transition, type: "tween" }}
+          ></motion.div>
           <span>Najlepsi fachowcy w okolicy</span>
         </div>
         {/*Hero Heading*/}
@@ -46,7 +52,12 @@ const Hero = () => {
         </div>
       </div>
       <div className="right-h">
-        <div className="contact-info">
+        <motion.div
+          transition={transition}
+          whileInView={{ right: "4rem" }}
+          initial={{ right: "-1rem" }}
+          className="contact-info"
+        >
           <div className="tel">
             <span>
               <i class="fa-solid fa-phone fa-beat-fade"></i>{" "}
@@ -65,7 +76,7 @@ const Hero = () => {
               </a>
             </span>
           </div>
-        </div>
+        </motion.div>
         {/*hero image*/}
         <img src={hero_img} alt="handyman" className="hero-img" />
       </div>
