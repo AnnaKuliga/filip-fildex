@@ -24,6 +24,7 @@
 .left-c a {
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 .left-c h6 {
   font-size: 20px;
@@ -37,6 +38,6 @@
   flex-direction: column;
 }
 .icons i {
-  font-size: 20px;
+  font-size: 24px;
   padding: 8px;
 }

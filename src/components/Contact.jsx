@@ -13,7 +13,7 @@ const Contact = () => {
             <span>
               <a href="" title="Zadzwoń">
                 <i class="fa-solid fa-phone-volume fa-beat-fade info__icon"></i>
-                +48 514 927 892
+                +48 514 92 78 92
               </a>
             </span>
             <span>
