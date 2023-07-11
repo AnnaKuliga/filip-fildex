@@ -42,6 +42,9 @@
   .left-i > img {
     max-width: 60%;
   }
+  .right-i {
+    padding-bottom: 0;
+  }
   .right-i > :nth-child(1) {
     font-size: 35px;
     align-self: center;
