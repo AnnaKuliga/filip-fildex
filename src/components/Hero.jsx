@@ -3,6 +3,8 @@ import "./Hero.css";
 import Header from "./Header";
 import hero_img from "../../src/images/header img.png";
 import { motion } from "framer-motion";
+import NumberCounter from "number-counter";
+
 const Hero = () => {
   const transition = { type: "spring", duration: 3 };
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -37,12 +39,16 @@ const Hero = () => {
         {/*figures*/}
         <div className="figures">
           <div>
-            <span>+500</span>
+            <span>
+              <NumberCounter end={250} start={150} delay="4" preFix="+" />
+            </span>
             <span>Zadowolonych klientów</span>
           </div>
 
           <div>
-            <span>+200</span>
+            <span>
+              <NumberCounter end={200} start={100} delay="4" preFix="+" />
+            </span>
             <span>Ukończonych projektów</span>
           </div>
         </div>
