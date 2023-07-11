@@ -21,6 +21,13 @@
   display: flex;
   gap: 1rem;
 }
+.left-j > div > span > a {
+  text-decoration: none;
+  color: white;
+}
+.left-j > div > span > a:hover {
+  color: var(--orange);
+}
 .right-j {
   display: flex;
   justify-content: center;
@@ -44,8 +51,4 @@
 .btn-j {
   background-color: var(--orange);
   color: black;
-}
-.shop {
-  text-decoration: none;
-  color: white;
 }

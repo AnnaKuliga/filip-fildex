@@ -14,13 +14,15 @@ const Join = () => {
           </span>
         </div>
         <div>
-          <span>sprawdź nasz</span>
+          <span>
+            {" "}
+            <span className="stroke-text">sprawdź</span> nasz
+          </span>
           <span>
             {" "}
             <a
               href="https://allegro.pl/uzytkownik/ShareOutlet?fbclid=IwAR2pFzbQsHKsi6XnfbGSskmu1qC-UIMMpeQXGpKBpElj-fK__jaHiT57NeM&order=n&strategy=NO_FALLBACK"
               target="_blank"
-              className="shop stroke-textnpm"
             >
               sklep internetowy
             </a>{" "}
