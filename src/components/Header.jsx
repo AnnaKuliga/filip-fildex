@@ -3,7 +3,6 @@ import "./Header.css";
 import Logo from "../../src/images/logo.png";
 import bars from "../../src/images/bars.png";
 import { Link } from "react-scroll";
-import { color } from "framer-motion";
 
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
@@ -53,13 +52,14 @@ const Header = () => {
           </li>
           <li onClick={() => setMenuOpened(false)}>
             <a
-              class="nav-link"
+              className="nav-link"
               aria-current="page"
               href="https://allegro.pl/uzytkownik/ShareOutlet?strategy=NO_FALLBACK&fbclid=IwAR2pFzbQsHKsi6XnfbGSskmu1qC-UIMMpeQXGpKBpElj-fK__jaHiT57NeM&order=n"
               target="_blank"
+              rel="noreferrer"
               title="Allegro Sklep"
             >
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i className="fa-solid fa-cart-shopping"></i>
             </a>
           </li>
           <li>
@@ -72,7 +72,7 @@ const Header = () => {
               smooth={true}
             >
               <a
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 href="#header-bgd"
                 title="Strona Główna"

@@ -9,16 +9,16 @@ const Contact = () => {
         <div>
           <h6>Zainteresowany?</h6>
           <h4>Skontaktuj się z nami</h4>
-          <div class="icons">
+          <div className="icons">
             <span>
               <a href="" title="Zadzwoń">
-                <i class="fa-solid fa-phone-volume fa-beat-fade info__icon"></i>
+                <i className="fa-solid fa-phone-volume fa-beat-fade info__icon"></i>
                 +48 514 92 78 92
               </a>
             </span>
             <span>
               <a href="mailto:fildex@wp.pl" title="Napisz do nas">
-                <i class="fa-solid fa-paper-plane fa-beat-fade info__icon"></i>
+                <i className="fa-solid fa-paper-plane fa-beat-fade info__icon"></i>
                 fildex@wp.pl
               </a>
             </span>

@@ -15,7 +15,7 @@ const Info = () => {
           </span>
         </div>
 
-        <p class="description">
+        <p className="description">
           Firma FILDEX została założona w 2021r. i działa w województwie
           podkarpackim. Wyróżniamy się szeroką gamą usług montażowych,
           serwisowych oraz naprawczych. Nasze specjalizacje to: elektryka,

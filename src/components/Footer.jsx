@@ -5,8 +5,13 @@ const Footer = () => {
   return (
     <div className="Footer">
       <div className="copyright">
-        <i class="fa-regular fa-copyright"></i> 2023 Coded by
-        <a href="https://annakuliga.com" target="_blank" title="Anna">
+        <i className="fa-regular fa-copyright"></i> 2023 Coded by
+        <a
+          href="https://annakuliga.com"
+          target="_blank"
+          rel="noreferrer"
+          title="Anna"
+        >
           {" "}
           Anna Kuliga
         </a>

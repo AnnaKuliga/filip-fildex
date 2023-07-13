@@ -54,8 +54,8 @@ const Hero = () => {
         </div>
         {/*hero buttons*/}
         <div className="hero-buttons">
-          <buttons className="btn">Dowiedź się więcej</buttons>
-          <buttons className="btn">Skontaktuj się z nami</buttons>
+          <button className="btn">Dowiedź się więcej</button>
+          <button className="btn">Skontaktuj się z nami</button>
         </div>
       </div>
       <div className="right-h">
@@ -67,7 +67,7 @@ const Hero = () => {
         >
           <div className="tel">
             <span>
-              <i class="fa-solid fa-phone fa-beat-fade"></i>{" "}
+              <i className="fa-solid fa-phone fa-beat-fade"></i>{" "}
             </span>
             <span>
               <a href="tel:514 92 78 92">+48 514 92 78 92</a>
@@ -75,7 +75,7 @@ const Hero = () => {
           </div>
           <div className="mail">
             <span>
-              <i class="fa-regular fa-envelope fa-beat-fade"></i>{" "}
+              <i className="fa-regular fa-envelope fa-beat-fade"></i>{" "}
             </span>
             <span>
               <a href="mailto:fildex@wp.pl" title="Napisz do nas">
