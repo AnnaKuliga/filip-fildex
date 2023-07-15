@@ -81,3 +81,8 @@
     margin-top: 0.5rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .services-header {
+    font-size: 18px;
+  }
+}
