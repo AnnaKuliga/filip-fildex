@@ -46,3 +46,9 @@
   filter: blur(190px);
   z-index: -9;
 }
+
+@media screen and (max-width: 900px) {
+  .blur {
+    display: none !important;
+  }
+}
