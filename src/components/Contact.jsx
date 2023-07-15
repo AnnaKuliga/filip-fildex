@@ -11,7 +11,7 @@ const Contact = () => {
           <h4>Skontaktuj się z nami</h4>
           <div className="icons">
             <span>
-              <a href="" title="Zadzwoń">
+              <a href="tel:+48514927892" title="Zadzwoń">
                 <i className="fa-solid fa-phone-volume fa-beat-fade info__icon"></i>
                 +48 514 92 78 92
               </a>
