@@ -64,7 +64,7 @@
   background-color: var(--orange);
   color: black;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .Join {
     flex-direction: column;
     gap: 1rem;
