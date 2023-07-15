@@ -10,7 +10,7 @@ const Footer = () => {
           href="https://annakuliga.com"
           target="_blank"
           rel="noreferrer"
-          title="Anna"
+          title="Anna Kuliga"
         >
           {" "}
           Anna Kuliga

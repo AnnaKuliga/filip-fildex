@@ -25,6 +25,7 @@ const Join = () => {
             <a
               href="https://allegro.pl/uzytkownik/ShareOutlet?fbclid=IwAR2pFzbQsHKsi6XnfbGSskmu1qC-UIMMpeQXGpKBpElj-fK__jaHiT57NeM&order=n&strategy=NO_FALLBACK"
               target="_blank"
+              title="Allegro Sklep"
               rel="noreferrer"
             >
               sklep internetowy
